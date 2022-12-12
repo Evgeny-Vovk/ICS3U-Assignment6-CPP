@@ -15,7 +15,7 @@ float area(float radiusAsFloat, float heightAsFloat) {
     // process and output
     surface_area = (
         pow(radiusAsFloat, 2) * M_PI * 2.0 +
-        radiusAsFloat * heightAsFloat * M_PI * 2);
+        radiusAsFloat * heightAsFloat * M_PI * 2.0);
     return surface_area;
 }
 
